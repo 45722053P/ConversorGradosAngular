@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>CONVERSOR DE GRADOS</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body ng-app="myApp" ng-controller="Controlador">
+
+<h1>Conversor de Grados</h1>
+
+<p>De Celsius a Farenheit</p>
+<input type="Text" ng-model="cel">
+<button ng-click="aFar()">Convierte a Farenheit!</button>
+
+<p>{{resultado1}}ºF</p>
+
+
+<p>De Farenheit a Celsius</p>
+<input type="Text" ng-model="far">
+<button ng-click="aCel()">Convierte a Celsius!</button>
+
+<p>{{resultado2}}ºC</p>
+
+<script src =app.js></script>
+<script src=Controlador.js></script>
+
+</body>
+</html>
